@@ -1,12 +1,10 @@
 
 function updateText(){
-  // CODE GOES HERE
   let text = document.getElementById('text-input').value;
   document.getElementById('text-output').innerText = text;
 }
 
 function makeBold(elem){
-  //CODE GOES HERE
   elem.classList.toggle('active')
   document.getElementById('text-output').classList.toggle('bold')
 }
@@ -18,7 +16,6 @@ function makeItalic(elem){
 
 
 function makeUnderline(elem){
-    //CODE GOES HERE
     elem.classList.toggle('active')
     let formattedText = document.getElementById("text-output")
     if(formattedText.classList.contains('underline')){
